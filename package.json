@@ -1,0 +1,34 @@
+{
+  "name": "knockout.promise",
+  "version": "2.0.0",
+  "description": "Knockout extender to convert a promise object into useful observables",
+  "main": "knockout.promise.js",
+  "scripts": {
+    "lint": "eslint . --format=unix",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civicsource/knockout.promise.git"
+  },
+  "keywords": [
+    "knockout",
+    "promise",
+    "loading",
+    "loader"
+  ],
+  "author": "CivicSource",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civicsource/knockout.promise/issues"
+  },
+  "homepage": "https://github.com/civicsource/knockout.promise#readme",
+  "peerDependencies": {
+    "knockout": "3.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^3.0.1",
+    "eslint-plugin-filenames": "^1.0.0"
+  }
+}
